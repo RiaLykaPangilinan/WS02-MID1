@@ -1,0 +1,128 @@
+@font-face{
+	font-family: 'JujutsuKaisen';
+	src: url(Fonts/Jujutsu-Kaisen.ttf);
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:'Lato', sans-serif;
+}
+
+header{
+	background-color: #413761;
+	padding-top: 30px;
+	text-align: center;
+}
+
+header img{
+	border-radius: 180px;
+	width: 300px;
+	border: 15px solid #192238;
+}
+
+h1{
+	font-size: 90px;
+	color: white;
+	font-family: 'JujutsuKaisen';
+	padding-bottom: 20px;
+}
+
+.content{
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 20 40px;
+	padding-left: 40px;
+	color: white;
+	font-size: 20px;
+	background-color: #727696;
+}
+
+.content p{
+	padding-top: 20px;
+	padding-bottom: 30px;
+	text-align: center;
+	font-style: italic;
+	font-size: 25px;
+}
+
+h2{
+	font-size: 35px;
+	padding-bottom: 5px;
+	font-family: 'Lato';
+	font-style: italic;
+	text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.40);
+}
+
+.characteristics{
+	padding-left: 50px;
+	padding-bottom: 40px;
+}
+
+.ImgCover{
+	max-width: 70%;
+	/*padding-top: 20px;*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.50);
+	}
+
+.Tag{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.Friends{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.KimDokja{
+	border-radius: 180px;
+	width: 200px;
+	border: 10px solid #413761;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.40);
+}
+
+.Cinnamoroll{
+	border-radius: 180px;
+	width: 200px;
+	border: 10px solid #413761;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.40);
+}
+
+.Nagi{
+	border-radius: 180px;
+	width: 200px;
+	border: 10px solid #413761;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.40);
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #192238;
+}
+
+footer{
+	font-size: 20px;
+	padding: 30px 20px;
+	background-color: #413761;
+}
+
+footer ul{
+	color: white;
+	text-align: center;
+}
+
+footer ul li{
+	display: inline-block;
+	margin: 0 5px;
+}
